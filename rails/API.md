@@ -21,8 +21,8 @@ app
 │   │   │   └── <files>
 │   │   ├── serializers
 │   │   │   └── <files>
-│   ├── models
-│   │   ├── application_record.rb
+├── models
+│   ├── application_record.rb
 │   │   └── <files>
 ├── <others, rails defaults>
 └── lib
