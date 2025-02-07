@@ -11,19 +11,19 @@ The API should be organized around **services** (domains) to encapsulate functio
 app
 ├── services
 │   ├── <domain_name>
-│   │	├── controllers
-│	│	│	└── <files>
-│   │	├── domain
-│	│	│	└── <files>
-│   │	├── helpers
-│	│	│	└── <files>
-│   │	├── repositories
-│	│	│	└── <files>
-│   │	├── serializers
-│	│	│	└── <files>
-│	├── models
-│	│   ├── application_record.rb
-│	│   └── <files>
+│   │   ├── controllers
+│   │   │   └── <files>
+│   │   ├── domain
+│   │   │   └── <files>
+│   │   ├── helpers
+│   │   │   └── <files>
+│   │   ├── repositories
+│   │   │   └── <files>
+│   │   ├── serializers
+│   │   │   └── <files>
+│   ├── models
+│   │   ├── application_record.rb
+│   │   └── <files>
 ├── <others, rails defaults>
 └── lib
     └── <others, rails defaults>
@@ -149,17 +149,17 @@ app
 ```bash
 services
 ├── user
-│	├── controllers
-│	│	└── user_controller.rb
-│	├── domain
-│	│	├── user_entity.rb
-│	│	└──user_logic.rb
-│	├── helpers
-│	│	└── user_helper.rb
+│   ├── controllers
+│   │   └── user_controller.rb
+│   ├── domain
+│   │   ├── user_entity.rb
+│   │   └──user_logic.rb
+│   ├── helpers
+│   │   └── user_helper.rb
 │   ├── repositories
-│	│	└── user_repository.rb
-│	├── serializers
-│	│	└── user_serializer.rb
+│   │   └── user_repository.rb
+│   ├── serializers
+│   │   └── user_serializer.rb
 ```
       
 #### File Responsibilities
