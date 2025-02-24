@@ -23,7 +23,7 @@ app
 │   │   │   └── <files>
 ├── models
 │   ├── application_record.rb
-│   │   └── <files>
+│   └── <files>
 ├── <others, rails defaults>
 └── lib
     └── <others, rails defaults>
